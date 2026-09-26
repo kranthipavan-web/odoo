@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Open the StockSense inventory application." />
+    <title>Open StockSense</title>
+    <style>
+      :root { font-family: Arial, Helvetica, sans-serif; color: #1e3046; background: #f4f7fb; }
+      * { box-sizing: border-box; }
+      body { min-height: 100vh; margin: 0; display: grid; place-items: center; padding: 24px; }
+      main { width: min(100%, 540px); padding: clamp(30px, 6vw, 54px); background: #fff; border: 1px solid #e0e8f0; border-radius: 20px; box-shadow: 0 18px 45px rgba(25, 47, 75, .08); }
+      .brand { display: flex; align-items: center; gap: 11px; font-size: 19px; font-weight: 750; }
+      .mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; color: #fff; background: #416cd1; font-weight: 800; }
+      h1 { margin: 40px 0 12px; font-size: clamp(30px, 6vw, 43px); line-height: 1.1; letter-spacing: -.04em; }
+      p { color: #607187; line-height: 1.6; }
+      .button { display: inline-block; margin-top: 18px; padding: 14px 23px; border-radius: 9px; background: #416cd1; color: #fff; font-size: 15px; font-weight: 700; text-decoration: none; }
+      .button:hover { background: #3159b9; }
+      a:focus-visible { outline: 3px solid #152b60; outline-offset: 4px; }
+      .note { margin: 26px 0 0; font-size: 13px; }
+      .note a { color: #3159b9; overflow-wrap: anywhere; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand"><span class="mark" aria-hidden="true">S</span>StockSense</div>
+      <h1>Inventory, in one place.</h1>
+      <p>Open the StockSense application to manage products, stock locations, and operations.</p>
+      <a class="button" href="https://stock-sense-inventory.replit.app/" target="_blank" rel="noopener noreferrer">Open StockSense app ↗</a>
+      <p class="note">Requires an internet connection. You may be asked to sign in.<br />
+        If the button does not open, visit
+        <a href="https://stock-sense-inventory.replit.app/">stock-sense-inventory.replit.app</a>.
+      </p>
+    </main>
+  </body>
+</html>
